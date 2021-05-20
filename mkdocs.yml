@@ -1,9 +1,9 @@
-site_name: Test docs
-site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_name: Product Purchasing Hub Docs
+site_description: 'Documentation for https://github.com/Redon-Tech/Roblox-Purchasing-Hub/'
+site_author: 'Redon Tech'
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
+repo_name: 'Redon-Tech/Roblox-Purchasing-Hub'
+repo_url: 'https://github.com/Redon-Tech/Roblox-Purchasing-Hub/'
 nav:
     - Home: index.md
 theme:
