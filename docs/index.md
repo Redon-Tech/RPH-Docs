@@ -1,1 +1,5 @@
-WIP Docs will be updated when the first version can create product purchases
+Welcome to Roblox Purchasing Hub Documentation!
+
+This documentation covers the API.
+
+Still Work In Progress.
