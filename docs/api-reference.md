@@ -48,6 +48,7 @@ Returns all products. **Requires ApiKey**
 Create's a product. **Requires ApiKey**
 
 **PARAMETERS**
+
 | Name        | Type   | Description             |
 | ----------- | ------ | ----------------------- |
 | Name        | String | The product name        |
@@ -69,6 +70,7 @@ Create's a product. **Requires ApiKey**
 Update's a product. **Requires ApiKey**
 
 **PARAMETERS**
+
 | Name        | Type   | Description                |
 | ----------- | ------ | -------------------------- |
 | Oldname     | String | The products original name |
@@ -91,6 +93,7 @@ Update's a product. **Requires ApiKey**
 Delete's a product. **Requires ApiKey**
 
 **PARAMETERS**
+
 | Name | Type   | Description      |
 | ---- | ------ | ---------------- |
 | Name | String | The product name |
@@ -106,6 +109,7 @@ Delete's a product. **Requires ApiKey**
 Gets a user's information.
 
 **PARAMETERS**
+
 | Name   | Type | Description         |
 | ------ | ---- | ------------------- |
 | UserId | Int  | The users Roblox Id |
@@ -126,6 +130,7 @@ Gets a user's information.
 Verify's a user. **Requires ApiKey**
 
 **PARAMETERS**
+
 | Name   | Type | Description         |
 | ------ | ---- | ------------------- |
 | UserId | Int  | The users Roblox Id |
@@ -141,6 +146,7 @@ Verify's a user. **Requires ApiKey**
 Gives's a user a product. **Requires ApiKey**
 
 **PARAMETERS**
+
 | Name        | Type   | Description         |
 | ----------- | ------ | ------------------- |
 | UserId      | Int    | The users Roblox Id |
@@ -162,6 +168,7 @@ Gives's a user a product. **Requires ApiKey**
 Revoke's a user a product. **Requires ApiKey**
 
 **PARAMETERS**
+
 | Name        | Type   | Description         |
 | ----------- | ------ | ------------------- |
 | UserId      | Int    | The users Roblox Id |
@@ -181,6 +188,7 @@ Revoke's a user a product. **Requires ApiKey**
 Gives's a user a product. **Requires ApiKey**
 
 **PARAMETERS**
+
 | Name   | Type   | Description               |
 | ------ | ------ | ------------------------- |
 | GameId | Int    | The **expierence** id     |
