@@ -1,8 +1,8 @@
 # V1
 
-## Base
-
-### GET /
+## **Base**
+--------------------------------------------
+### **GET /**
 
 **RETURNS**
 ```json
@@ -10,8 +10,8 @@
     "message": "Ok"
 }
 ```
-
-### GET /v1/status
+--------------------------------------------
+### **GET /v1/status**
 
 **RETURNS**
 ```json
@@ -24,9 +24,9 @@
 }
 ```
 
-## Products
-
-### GET /v1/products
+## **Products**
+--------------------------------------------
+### **GET /v1/products**
 Returns all products. **Requires ApiKey**
 
 **RETURNS**
@@ -43,8 +43,8 @@ Returns all products. **Requires ApiKey**
     }
 }
 ```
-
-### POST /v1/create_product
+--------------------------------------------
+### **POST /v1/create_product**
 Create's a product. **Requires ApiKey**
 
 **PARAMETERS**
@@ -65,8 +65,8 @@ Create's a product. **Requires ApiKey**
     }
 }
 ```
-
-### POST /v1/update_product
+--------------------------------------------
+### **POST /v1/update_product**
 Update's a product. **Requires ApiKey**
 
 **PARAMETERS**
@@ -88,8 +88,8 @@ Update's a product. **Requires ApiKey**
     }
 }
 ```
-
-### DELETE /v1/delete_product
+--------------------------------------------
+### **DELETE /v1/delete_product**
 Delete's a product. **Requires ApiKey**
 
 **PARAMETERS**
@@ -105,7 +105,9 @@ Delete's a product. **Requires ApiKey**
 }
 ```
 
-### GET, POST /v1/user
+## **User**
+--------------------------------------------
+### **GET, POST /v1/user**
 Gets a user's information.
 
 **PARAMETERS**
@@ -125,8 +127,8 @@ Gets a user's information.
     ]
 }
 ```
-
-### POST /v1/verify_user
+--------------------------------------------
+### **POST /v1/verify_user**
 Verify's a user. **Requires ApiKey**
 
 **PARAMETERS**
@@ -141,8 +143,8 @@ Verify's a user. **Requires ApiKey**
     "key": "ADG56"
 }
 ```
-
-### POST /v1/give_product
+--------------------------------------------
+### **POST /v1/give_product**
 Gives's a user a product. **Requires ApiKey**
 
 **PARAMETERS**
@@ -163,8 +165,8 @@ Gives's a user a product. **Requires ApiKey**
     ]
 }
 ```
-
-### DELETE /v1/revoke_product
+--------------------------------------------
+### **DELETE /v1/revoke_product**
 Revoke's a user a product. **Requires ApiKey**
 
 **PARAMETERS**
@@ -184,7 +186,9 @@ Revoke's a user a product. **Requires ApiKey**
 }
 ```
 
-### POST /v1/create_purchase
+## **Other**
+--------------------------------------------
+### **POST /v1/create_purchase**
 Gives's a user a product. **Requires ApiKey**
 
 **PARAMETERS**
