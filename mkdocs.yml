@@ -6,7 +6,8 @@ repo_name: 'Redon-Tech/Roblox-Purchasing-Hub'
 repo_url: 'https://github.com/Redon-Tech/Roblox-Purchasing-Hub/'
 nav:
     - Home: index.md
-    - Api Reference: api-reference.md
+    - API:
+      - Reference: api-reference.md
 theme:
   features:
     - navigation.instant
