@@ -8,6 +8,8 @@ nav:
     - Home: index.md
     - Api Reference: api-reference.md
 theme:
+  features:
+    - navigation.instant
   name: 'material'
   palette:
     scheme: slate
@@ -19,3 +21,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets
   - tables
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true

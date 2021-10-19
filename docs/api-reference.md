@@ -3,6 +3,7 @@
 ## Base
 
 ### GET /
+
 **RETURNS**
 ```json
 {
@@ -11,6 +12,7 @@
 ```
 
 ### GET /v1/status
+
 **RETURNS**
 ```json
 {
@@ -26,6 +28,7 @@
 
 ### GET /v1/products
 Returns all products. **Requires ApiKey**
+
 **RETURNS**
 ```json
 {
@@ -43,6 +46,7 @@ Returns all products. **Requires ApiKey**
 
 ### POST /v1/create_product
 Create's a product. **Requires ApiKey**
+
 **PARAMETERS**
 | Name        | Type   | Description             |
 | ----------- | ------ | ----------------------- |
@@ -63,6 +67,7 @@ Create's a product. **Requires ApiKey**
 
 ### POST /v1/update_product
 Update's a product. **Requires ApiKey**
+
 **PARAMETERS**
 | Name        | Type   | Description                |
 | ----------- | ------ | -------------------------- |
@@ -84,10 +89,11 @@ Update's a product. **Requires ApiKey**
 
 ### DELETE /v1/delete_product
 Delete's a product. **Requires ApiKey**
+
 **PARAMETERS**
-| Name        | Type   | Description             |
-| ----------- | ------ | ----------------------- |
-| Name        | String | The product name        |
+| Name | Type   | Description      |
+| ---- | ------ | ---------------- |
+| Name | String | The product name |
 
 **RETURNS**
 ```json
@@ -98,10 +104,11 @@ Delete's a product. **Requires ApiKey**
 
 ### GET, POST /v1/user
 Gets a user's information.
+
 **PARAMETERS**
-| Name        | Type   | Description             |
-| ----------- | ------ | ----------------------- |
-| UserId      | Int    | The users Roblox Id     |
+| Name   | Type | Description         |
+| ------ | ---- | ------------------- |
+| UserId | Int  | The users Roblox Id |
 
 **RETURNS**
 ```json
@@ -117,10 +124,11 @@ Gets a user's information.
 
 ### POST /v1/verify_user
 Verify's a user. **Requires ApiKey**
+
 **PARAMETERS**
-| Name        | Type   | Description             |
-| ----------- | ------ | ----------------------- |
-| UserId      | Int    | The users Roblox Id     |
+| Name   | Type | Description         |
+| ------ | ---- | ------------------- |
+| UserId | Int  | The users Roblox Id |
 
 **RETURNS**
 ```json
@@ -131,11 +139,12 @@ Verify's a user. **Requires ApiKey**
 
 ### POST /v1/give_product
 Gives's a user a product. **Requires ApiKey**
+
 **PARAMETERS**
-| Name        | Type   | Description             |
-| ----------- | ------ | ----------------------- |
-| UserId      | Int    | The users Roblox Id     |
-| ProductName | String | The product's name      |
+| Name        | Type   | Description         |
+| ----------- | ------ | ------------------- |
+| UserId      | Int    | The users Roblox Id |
+| ProductName | String | The product's name  |
 
 **RETURNS**
 ```json
@@ -151,11 +160,12 @@ Gives's a user a product. **Requires ApiKey**
 
 ### DELETE /v1/revoke_product
 Revoke's a user a product. **Requires ApiKey**
+
 **PARAMETERS**
-| Name        | Type   | Description             |
-| ----------- | ------ | ----------------------- |
-| UserId      | Int    | The users Roblox Id     |
-| ProductName | String | The product's name      |
+| Name        | Type   | Description         |
+| ----------- | ------ | ------------------- |
+| UserId      | Int    | The users Roblox Id |
+| ProductName | String | The product's name  |
 
 **RETURNS**
 ```json
@@ -169,12 +179,13 @@ Revoke's a user a product. **Requires ApiKey**
 
 ### POST /v1/create_purchase
 Gives's a user a product. **Requires ApiKey**
+
 **PARAMETERS**
-| Name        | Type   | Description               |
-| ----------- | ------ | ------------------------- |
-| GameId      | Int    | The **expierence** id     |
-| Name        | String | The name of the purchase  |
-| Price       | Int    | The price of the purchase |
+| Name   | Type   | Description               |
+| ------ | ------ | ------------------------- |
+| GameId | Int    | The **expierence** id     |
+| Name   | String | The name of the purchase  |
+| Price  | Int    | The price of the purchase |
 
 **NOTES**
 * Make sure that GameId is the **expierence** which can be found in "Configure this Expierence"'s URL
