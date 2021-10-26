@@ -200,8 +200,11 @@ Gives's a user a product. **Requires ApiKey**
 | Price  | Int    | The price of the purchase |
 
 **NOTES**
+
 * Make sure that GameId is the **expierence** which can be found in "Configure this Expierence"'s URL
+
 * DO NOT USE THE PLACE ID FOR GameId IT WILL NOT WORK
+
 * The description of the product will be the Name + the Price
 
 **RETURNS**
