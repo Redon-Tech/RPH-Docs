@@ -7,7 +7,7 @@ repo_url: 'https://github.com/Redon-Tech/Roblox-Purchasing-Hub/'
 nav:
     - Home: index.md
     - Setup:
-      - Basic Setup: setup/index.md
+      - Initial Setup: setup/index.md
       - Bot & API Setup: setup/bot-api.md
       - Roblox Setup: setup/roblox.md
     - API:
