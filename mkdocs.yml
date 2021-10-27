@@ -15,6 +15,7 @@ nav:
 theme:
   features:
     - navigation.instant
+    - navigation.tabs
   name: 'material'
   palette:
     scheme: slate
