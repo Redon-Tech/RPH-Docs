@@ -9,6 +9,7 @@
     ```shell
     git clone -b development https://github.com/Redon-Tech/Roblox-Purchasing-Hub
     ```
+
 2. Install requirements
     ```shell
     cd Roblox-Purchasing-Hub
@@ -19,8 +20,11 @@
     ```shell
     pip install -r BOT/requirements.txt
     ```
+
 3. In BOT/lib/bot clone the example.config.json and rename it to config.json
+
 4. Edit config.json and update it with all the proper information (Guide on configuration below)
+
 5. In BOT/lib/cogs/website.py at the very bottom change
     ```python
     app.run_task("0.0.0.0")
@@ -29,6 +33,7 @@
     ```python
     app.run_task("0.0.0.0", port=5000)
     ```
+
 6. Run the bot by executing BOT/launcher.py
     ```shell
     python3 BOT/launcher.py
@@ -37,6 +42,7 @@
     ```shell
     python BOT/launcher.py
     ```
+
 7. Test that the bot is online by using `{prefix}help` (Default Prefix: ".")
 
 ## Configuration
