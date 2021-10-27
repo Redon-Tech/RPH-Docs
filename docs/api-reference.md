@@ -189,7 +189,7 @@ Revoke's a user a product. **Requires ApiKey**
 ## **Other**
 --------------------------------------------
 ### **POST /v1/create_purchase**
-Gives's a user a product. **Requires ApiKey**
+Creat's a developer product on Roblox and returns the ID. **Requires ApiKey**
 
 **PARAMETERS**
 
