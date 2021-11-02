@@ -10,8 +10,8 @@ nav:
       - Initial Setup: setup/index.md
       - Bot & API Setup: setup/bot-api.md
       - Roblox Setup: setup/roblox.md
-    - API:
-      - Reference: api-reference.md
+    - Advanced Usage:
+      - API Reference: advanced/api-reference.md
 theme:
   features:
     - navigation.instant
