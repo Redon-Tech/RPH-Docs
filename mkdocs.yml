@@ -12,6 +12,7 @@ nav:
       - Roblox Setup: setup/roblox.md
     - Advanced Usage:
       - API Reference: advanced/api-reference.md
+      - Customization: advanced/customization.md
 theme:
   features:
     - navigation.instant
