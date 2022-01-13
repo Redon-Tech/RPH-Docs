@@ -13,6 +13,6 @@ So you want to do it in a advanced way? Then you need to know how to script.
 First you should study the existing UI and local script, once you have done that you should have the knowledge to reproduce it in your own way. Good luck!
 
 ### Officially Supported GUI's
-If you wish to publish your hub GUI to the public please DM me and we can add it to here.
+If you wish to publish your hub GUI to the public please DM parker02311#3460 on Discord so we can add it to here.
 
 **COMING SOON**
