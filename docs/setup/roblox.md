@@ -1,3 +1,7 @@
+---
+authors:
+    - parker02311
+---
 ## Fast Installation
 For creating a new place.
 

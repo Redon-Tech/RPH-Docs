@@ -1,3 +1,7 @@
+---
+authors:
+    - parker02311
+---
 # WIP
 
 ## UI Customizaiton

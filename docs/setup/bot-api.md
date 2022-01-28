@@ -1,3 +1,7 @@
+---
+authors:
+    - parker02311
+---
 ## Installation
 1. Clone this repository into the directory you want it in.
     

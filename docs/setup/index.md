@@ -1,3 +1,7 @@
+---
+authors:
+    - parker02311
+---
 ## Requirements
 
 - A computer or VPS to host the bot/api on

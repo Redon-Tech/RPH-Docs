@@ -1,6 +1,4 @@
 ---
-title: Home
-summary: The home page of this project
 authors:
     - parker02311
 ---
